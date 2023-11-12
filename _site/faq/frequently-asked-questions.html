@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Frequently Asked Questions | Sonic Throwback </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Frequently Asked Questions | Sonic Throwback ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Sonic Throwback">
+            Sonic Throwback
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+
+<h2 id="overview">Overview</h2>
+<p>The following showcases several questions those may have with this project.</p>
+<h3 id="origin">Origin</h3>
+<p><strong>Q:</strong> <em>What is Sonic Throwback?</em>
+<strong>A:</strong> Sonic Throwback*(Title Pending)* is a Sonic fangame created in Godot primarily based on Sonic Adventure, Sonic Heroes and Sonic Advance 3. It is a spiritual successor to <a href="https://sonicworldfangame.com/">Sonic World</a>, a blitz sandbox game.</p>
+<p><strong>Q:</strong> <em>Why did you migrate from this after Sonic World?</em>
+<strong>A:</strong> Most people here know how old the Blitz3D engine is. Especially as of late, recent graphics drivers are causing the game to not work, and modern features such as Xinput is not supported. This will allow people to enjoy a very similar experience without the compatibility problems.</p>
+<p><strong>Q:</strong> <em>What platforms are planned?</em>
+<strong>A:</strong> Windows is confirmed. Linux/Steam Deck is planned once I get testers. Android support will be tested once Godot 4.2 releases, but is not definite.</p>
+<h3 id="engine-related">Engine Related</h3>
+<p><strong>Q:</strong> <em>What engine is this made in?</em>
+<strong>A:</strong> This project in made in <a href="https://godotengine.org/">Godot 4</a>, an open source engine that supports C#, C++ and gdscript. This project mostly uses C#, to ease the migration from Unity.</p>
+<p><strong>Q:</strong> <em>What framework does this use?</em>
+<strong>A:</strong> While not exactly a framework, it uses <a href="https://github.com/cuckydev/SonicOnset-Source">public source code</a> from cuckydev's work on SOA. This itself is modelled after reverse engineered code from Sonic Adventure, making the physics extremely close to those entries, including some exploits like the super bounce.</p>
+<p><strong>Q:</strong> <em>What made you choose Godot over Unity/Unreal?</em>
+<strong>A:</strong> Godot is lightweight. I have had prior experience with Godot 3 but only in 2D. I committed to the switch following some controversy following Unity. Godot was the closest alternative. It did have an effect on the scope as b3d compatibility was lost. This also doubles as a way for me to learn the engine for my own portfolio work.</p>
+<h3 id="features">Features</h3>
+<p><strong>Q:</strong> <em>What modes will be in the game?</em>
+<strong>A:</strong> For the initial release, single-player is planned, as well as a sandbox online mode. A more fully featured online would be added later on. The team mechanic will be single-player exclusive and is the main goal for the initial release.</p>
+<p><strong>Q:</strong> <em>What characters are planned for the game?</em>
+<strong>A:</strong> Currently, we plan to catch up to Sonic World in character count. The initial release will only have enough for the team mechanic: Team Sonic.</p>
+<p><strong>Q:</strong> <em>Will there be mod support?</em>
+<strong>A:</strong> Level mod support is planned. <a href="https://docs.godotengine.org/en/latest/tutorials/export/exporting_pcks.html#doc-exporting-pcks">The system is already in place</a>. Character modding will not be in the initial release but will be added once the character system is finalised. Language mods are also planned so people can release their own language packs for menus.</p>
+<p><strong>Q:</strong> <em>Will there be a story mode?</em>
+<strong>A:</strong> A traditional story will not be present. After the initial release, an Arcade Mode is planned where each character has a unique playlist of 3 stages to go through.</p>
+<p><strong>Q:</strong> <em>What type of stages will be in the game?</em>
+<strong>A:</strong> For the initial release, regular goal missions will be the only available missions, as well as a free roam for online. Later releases are planned to re-add Treasure Hunting and a proper online race mode. Smaller missions like ring collecting and enemy destruction is also planned.</p>
+<h3 id="misc">Misc.</h3>
+<p><strong>Q:</strong> <em>Will there be proper controller support? (Dualsense, Dualshock, etc.)</em>
+<strong>A:</strong> As Godot supports XInput, controller support will be similar to other titles so all modern controllers should be able to play the game.</p>
+<p><strong>Q:</strong> <em>When is a release planned?</em>
+<strong>A:</strong> It is too early to say. I want to target SAGE but as of writing I'm the only developer. Development builds are available to those who register for a @Playtester role in &lt;id:customize&gt; .</p>
+<p><strong>Q:</strong> <em>I want to help contribute!</em>
+<strong>A:</strong> Let me know! Currently the only developer is myself with Strike helping with animations. I'm especially looking for fellow developers to streamline development, alongside vfx artists. If you want to help in ways not mentioned, let me know regardless!</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
